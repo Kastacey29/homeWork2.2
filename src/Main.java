@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Human maxim = new Human(1987, "Maxim", "Minsk", "brand-manager");
-        Human anya = new Human(1993, "Anna", "Moskow", "methodologistOfEducationalPrograms");
+        Human anya = new Human(-1993, "Anna", null, "methodologistOfEducationalPrograms");
         Human katya = new Human(1994, "Katya", "Kaliningrad", "productManager");
         Human artem = new Human(1995, "Artem", "Moskow", "directorOfBusinessDevelopment");
         System.out.println("Привет! Меня зовут " + maxim.name + ". Я из города " + maxim.town +
