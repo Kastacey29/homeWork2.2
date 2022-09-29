@@ -1,32 +1,32 @@
 public class Human {
-   private Integer yearOfBirth;
+    private Integer yearOfBirth;
     String name;
     private String town;
     String position;
 
     public Human(Integer yearOfBirth, String name, String town, String position) {
 
-        if (yearOfBirth >= 0&&yearOfBirth!=null) {
+        if (yearOfBirth >= 0 && yearOfBirth != null) {
             this.yearOfBirth = yearOfBirth;
         } else {
             this.yearOfBirth = 0;
         }
 
-        if (name!=null) {
+        if (name != null) {
             this.name = name;
-        }else {
+        } else {
             this.name = "Информация не указана";
         }
 
-        if (town!=null&&!town.isEmpty()) {
+        if (town != null && !town.isEmpty()) {
             this.town = town;
-        }else {
+        } else {
             this.town = "Информация не указана";
         }
 
-        if (position!=null) {
+        if (position != null) {
             this.position = position;
-        }else {
+        } else {
             this.position = "Информация не указана";
         }
     }
@@ -36,7 +36,7 @@ public class Human {
     }
 
     public void setYearOfBirth(Integer yearOfBirth) {
-        if (yearOfBirth >= 0&&yearOfBirth!=null) {
+        if (yearOfBirth >= 0 && yearOfBirth != null) {
             this.yearOfBirth = yearOfBirth;
         } else {
             this.yearOfBirth = 0;
@@ -48,9 +48,9 @@ public class Human {
     }
 
     public void setTown(String town) {
-        if (town!=null&&!town.isEmpty()) {
+        if (town != null && !town.isEmpty()) {
             this.town = town;
-        }else {
+        } else {
             this.town = "Информация не указана";
         }
     }
